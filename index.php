@@ -4,6 +4,7 @@
 	} else {
 		$uri = 'http://';
 	}
+	testing is best of u
 	$uri .= $_SERVER['HTTP_HOST'];
 	header('Location: '.$uri.'/dashboard/');
 	exit;
